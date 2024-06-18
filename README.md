@@ -20,7 +20,7 @@ sudo apt-get install ros-noetic-cv-bridge ros-noetic-image-transport
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
-
+```
 
 ## Usage
 ###Running the Simulation
