@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+    
+   <!--If you to teleoperate decomment this
+  <param name="linear_scale" type="double" value="0.9" />
+  <param name="angular_scale" type="double" value="0.9" />
+  <param name="topic" type="str" value="cmd_vel" />-->
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(find projet)/worlds/Projet2023.world"/>
+      <arg name="paused" value="false"/>
+      <arg name="use_sim_time" value="true"/>
+      <arg name="gui" value="true"/>
+      <arg name="headless" value="false"/>
+      <arg name="debug" value="false"/>
+    </include>
+
+
+  <!-- Spwan turtlebot in Gazebo -->
+  <param name="robot_description" command="$(find xacro)/xacro $(find projet)/urdf/turtlebot3.urdf.xacro " />
+  
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_burger -x 1 -y 0.2 -z 0.0 -Y 0 -param robot_description" /> 
+   <!--lancement du fichier pour le challenge 2-->                     
+  <node pkg="projet" name="Line_following" type="Obstacle.py"/>
+
+  
+</launch>
