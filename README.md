@@ -23,19 +23,19 @@ source devel/setup.bash
 ```
 
 ## Usage
-###Running the Simulation
+### Running the Simulation
 Launch the simulation environment for each challenge using the provided launch files:
 
-# Challenge 1: Line Following
+### Challenge 1: Line Following
 roslaunch ROS-Turtlebot-Navigation-Challenges challenge1.launch
 
-# Challenge 2: Corridor Navigation
+###  Challenge 2: Corridor Navigation
 roslaunch ROS-Turtlebot-Navigation-Challenges challenge2.launch
 
-# Challenge 3: Cluttered Environment Navigation
+###  Challenge 3: Cluttered Environment Navigation
 roslaunch ROS-Turtlebot-Navigation-Challenges challenge3.launch
 
-# To run the program at once (ie the 3 connected challenges) the launchfile is required: challenge.launch
+### To run the program at once (ie the 3 connected challenges) the launchfile is required: challenge.launch
 
 
 Given that sometimes the results are not very correct we give you attached a drive link to two videos of the results obtained for the same codes on two different computers.
