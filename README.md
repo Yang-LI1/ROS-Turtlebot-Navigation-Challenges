@@ -40,11 +40,4 @@ roslaunch ROS-Turtlebot-Navigation-Challenges challenge3.launch
 ### To run the program at once (ie the 3 connected challenges) the launchfile is required: challenge.launch
 
 
-Given that sometimes the results are not very correct we give you attached a drive link to two videos of the results obtained for the same codes on two different computers.
-We also note that the execution times are not at all the same.
-https://drive.google.com/drive/folders/174tjcmNm5-rXcAyDNE76QKAlH98nswd6?usp=sharing
-
-Another link in case the other doesn't work
-https://filetransfer.io/data-package/BeUTQyxV#link
-
 
