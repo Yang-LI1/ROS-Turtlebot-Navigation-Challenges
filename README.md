@@ -2,6 +2,8 @@
 
 ## Project Overview
 This repository hosts the code for a ROS-based project aimed at controlling a Turtlebot 3 Burger in various complex environments. The project involves solving three key challenges: line following, corridor navigation, and navigation in a cluttered environment, leveraging both simulated and real-world scenarios.
+You can see the result in the video :
+[![Watch the video](video.jpg)](https://vimeo.com/976951564?share=copy)
 
 ## Installation
 
